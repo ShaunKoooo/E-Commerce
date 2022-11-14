@@ -1,0 +1,49 @@
+.searchBar {
+  width: 30%;
+  border: solid orange;
+  border-radius: 15px;
+}
+
+.searchBarBlur {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBarFocus {
+  align-items: flex-start;
+  height: 130px;
+  border: solid #d3d3d3;
+}
+
+.searchInput {
+  width: 100%;
+  border-style: none;
+  outline: none;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 3px;
+}
+
+.searchIcon:hover {
+  background-color: #e98032;
+}
+
+.searchIcon {
+  margin: 5px;
+  width: 31px;
+  height: 31px;
+  border:0;
+  background-color: orange;
+  border-radius: 13px;
+}
+
+.line {
+  border: 0.5px solid;
+  border-radius: 20px;
+  width: 90%;
+  margin: auto;
+  color: #d3d3d3;
+}
